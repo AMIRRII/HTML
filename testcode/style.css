@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Card UI */
+.card {
+    background: white;
+    width: 320px;
+    margin: 60px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4facfe;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Messages */
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #4facfe;
+}
+
+/* Blog Page */
+body.blog {
+    background: #f4f4f4;
+}
+
+.nav {
+    text-align: right;
+    padding: 10px;
+    background: #555;
+    color: white;
+}
+
+.nav a {
+    color: white;
+    margin-left: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.post {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
